@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+}
+
+.left-header{
+    display: flex;
+}
+
+.right-header{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
