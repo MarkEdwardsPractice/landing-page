@@ -5,6 +5,12 @@ body{
     flex-direction: column;
 }
 
+.header-and-intro{
+    background-color: darkcyan;
+    width: 100vw;
+    margin-top: -8px;
+    
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -13,10 +19,14 @@ body{
 
 .left-header{
     display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 10px;
 }
 
 .right-header{
     display: flex;
+    margin-right: 20px;
 }
 
 ul{
@@ -28,7 +38,8 @@ ul{
 .intro{
     display: flex;
     align-items: center;
-    margin: auto;
+    justify-content: center;
+    margin: 50px 0px 50px 0px;
 }
 
 .left-intro{
@@ -51,4 +62,79 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.card img{
+    width: 100px;
+    min-width: 100px;
+    height: 100px;
+    min-height: 100px;
+    border: 2px solid blue;
+    border-radius: 15px;
+}
+
+.quote{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  
+}
+
+.quote-container{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-container quote{
+    font-style: italic;
+}
+
+.quote-container p{
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.sign-up{
+    width: 600px;
+    min-width: 600px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blue;
+}
+
+.left-sign-up{
+    color: white;
+    align-self: center;
+}
+
+.left-sign-up h2{
+    margin-bottom: -10px;
+}
+
+.right-sign-up{
+    align-self: center;
+}
+
+.footer{
+    color: white;
+    background-color: dimgray;
+    text-align: center;
 }
